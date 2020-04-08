@@ -244,6 +244,7 @@ void draw() {
           groundhogY = GROUNDHOG_ST_Y;
           cabbageX = (int)random(8)*GRID_LENGTH;
           cabbageY = (int)random(4)*GRID_LENGTH + SKY_H;
+          cabbageState = !EATEN;
           soldierY = (int)random(4) * GRID_LENGTH + SKY_H;  
           frame    = 0;  // same as above
           gameState = GAME_RUN;
