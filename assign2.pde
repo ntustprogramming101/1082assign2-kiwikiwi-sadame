@@ -135,9 +135,9 @@ void draw() {
           if (rightPressed) groundhogState = GO_RIGHT;
           
           // debug
-          if (downPressed) println(groundhogY, soldierY);
-          if (leftPressed) println(groundhogX);
-          if (rightPressed) println(groundhogX);
+          //if (downPressed) println(groundhogY, soldierY);
+          //if (leftPressed) println(groundhogX);
+          //if (rightPressed) println(groundhogX);
           
           break;
           
